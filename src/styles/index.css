@@ -1,12 +1,19 @@
-
-/* 
-
-    You can write your own styles here...
+.ccounter {
+    text-align: center;
+    background: grey;
+    margin-top: 10px;
+    padding: 80px;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
 
-*/
+.ccounter div {
+    display: inline-block;
+    font-size: 50px;
+    padding: 30px;
+    background-color: black;
+    color: whitesmoke;
+    margin-top: 40px;
+    margin: 2px;
+    border-radius: 30px;
+    border: 2px solid #efefe8;
+}
